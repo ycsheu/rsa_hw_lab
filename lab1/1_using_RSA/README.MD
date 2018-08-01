@@ -34,7 +34,7 @@ prikey_filename = 'pri4096.pem'
 
 f = open(prikey_filename, 'r')
 
-prikey = RSA.importKey(f.read
+prikey = RSA.importKey(f.read())
 
 prikey.d
 
