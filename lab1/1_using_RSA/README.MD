@@ -7,7 +7,7 @@ from Crypto.PublicKey import RSA
 
 pubkey_filename = 'pub4096.pem'
 
-f = open(public_filename,'r')
+f = open(pubkey_filename,'r')
 
 pubkey = RSA.importKey(f.read())
 
