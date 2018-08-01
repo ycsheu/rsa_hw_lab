@@ -1,4 +1,4 @@
-use python to encrypt P and decrypt
+use python3 to encrypt P and decrypt
 
 
 
